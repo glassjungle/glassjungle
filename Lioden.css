@@ -576,8 +576,8 @@ a[href$="lionoverview.php?id=282112"]>div.cave-grid>img {
 
 .mound-grid img {
 	background: url('https://i.pinimg.com/736x/c3/84/81/c38481f8e0f7259d4d34e8bfdf81c714.jpg');
-	width: auto;
-	height: auto;
+	width: 80;
+	height: 130;
 	padding-top: 80px;
 	padding-right: 130px;
 }
