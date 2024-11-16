@@ -5,12 +5,13 @@
 /* BACKGROUND */
 
 body {
-	background: url('https://file.garden/ZlKCRJrkUEDiwwUh/2024_06_27_0xc_Kleki.png') center center fixed;
-	background-size: 100%;
-    text-transform: lowercase !important;
-	font-family: "Titillium Web", sans-serif;
-	color: #011126
-}
+			background-image: url('hhttps://file.garden/ZlKCRJrkUEDiwwUh/2024_06_27_0xc_Kleki.png') ;
+			background-repeat: no-repeat;
+			background-size: cover;
+			font-family:ms ui gothic;
+			color:white;
+			font-size:16px;
+			}
 
 /* MAIN PANEL */
 
