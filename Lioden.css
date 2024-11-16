@@ -180,13 +180,13 @@ div.left {
 
 
 .s-chat-message:nth-child(even) {
-	background: #000000 !important;
+	background: #ffffff !important;
 	border: none !important;
 }
 
 
 .s-chat-message:nth-child(odd) {
-	background: #000000 !important;
+	background: #ffffff !important;
 	border: none !important;
 }
 
