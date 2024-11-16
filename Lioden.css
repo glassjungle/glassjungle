@@ -11,7 +11,7 @@
 /* FONT (From Google Fonts) *
 
 
-@import url('FONT LINK HERE');
+
 
 
 /* BACKGROUND */
@@ -225,6 +225,7 @@ h1 {
 	color: #008392;
 	font-size: 72px;
 	text-align: center;
+	@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 }
 
 
