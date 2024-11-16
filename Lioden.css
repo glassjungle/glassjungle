@@ -550,8 +550,12 @@ a[href$="222705"]>div.cave-grid>img {
 /* UNSORTED */
 
 
-a[href$="unsorted.php?id=#282112"]>div.cave-grid>img {
+
+
+a[href$="unsorted.php?id=282112"]>div.cave-grid>img {
 	content: url('https://i.pinimg.com/736x/32/04/f5/3204f575d5be00b0ae049f0cc9d58434.jpg')!important;
+
+
 }
 
 
