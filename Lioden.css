@@ -272,7 +272,7 @@ h3 {
 .bottom,
 th {
 	background: rgba(29, 109, 131, 0.9) !important;
-	color: cyan;
+	color: #01ffff;
 	border-radius: 5px;
 }
 
@@ -284,7 +284,7 @@ th {
 
 .table .left {
 	background: rgba(29, 109, 131, 0.9)
-	color: cyan !important;
+	color: #01ffff !important;
 }
 
 
