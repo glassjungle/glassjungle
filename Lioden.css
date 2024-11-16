@@ -28,7 +28,9 @@ body {
   font-style: normal;
 }
 
-
+bigger { color: cyan; 
+	Border:0;
+       }
 
 
 /* FEED ALL, PLAY ALL */
