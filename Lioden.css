@@ -52,7 +52,7 @@ body {
 	background: rgba(0, 0, 0, 0.6);
 	border: none;
 	border-top: none;
-	color: #000000;
+	color: #008392;
 	border-radius: 5px;
 	font-family: MS PGothic;
 }
@@ -62,7 +62,7 @@ body {
 	background: rgba(0, 0, 0, 0.6);
 	border-bottom: none;
 	font-family: MS PGothic;
-	color: #000000;
+	color: #008392;
 	border-radius: 5px;
 }
 
@@ -242,7 +242,7 @@ h1 {
 
 
 h2 {
-	color: #000000;
+	color: #008392;
 	font-size: 24px;
 	text-align: center;
 }
@@ -254,7 +254,7 @@ h2 {
 
 
 h3 {
-	color: #000000 !important;
+	color: #008392 !important;
 	font-size: 14px !important
 }
 
@@ -346,7 +346,7 @@ textarea {
 
 .item-header {
 	background: rgba(0, 0, 0, 0.6) !important;
-	color: #000000  !important;
+	color: #008392  !important;
 }
 
 
