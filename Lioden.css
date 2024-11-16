@@ -242,7 +242,7 @@ h1 {
 
 
 h2 {
-	color: #008392;
+	color: cyan;
 	font-size: 24px;
 	text-align: center;
 }
@@ -254,7 +254,7 @@ h2 {
 
 
 h3 {
-	color: #008392 !important;
+	color: cyan !important;
 	font-size: 14px !important
 }
 
