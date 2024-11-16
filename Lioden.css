@@ -35,7 +35,7 @@ body {
 
 
 .feature {
-	background: rgba(, 0.6) !important;
+	background: rgba(37, 120, 143, 0.6) !important;
 	color: #008392 !important;
 	border: none !important;
 	border-radius: 5px !important;
@@ -58,7 +58,7 @@ body {
 
 
 .navbar {
-	background: rgba(89, 161, 171, 0.6);
+	background: rgba(37, 120, 143, 0.6);
 	border-bottom: none;
 	font-family: MS PGothic;
 	color: #008392;
@@ -120,7 +120,7 @@ body {
 
 
 .alert {
-	background: rgba(36, 99, 125, 0.6);
+	background: rgba(37, 120, 143, 0.6);
 	border: none;
 	color: #008392;
 }
@@ -140,7 +140,7 @@ body {
 
 .feature,
 div.left {
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(37, 120, 143, 0.6);
 	border: none;
 }
 
@@ -151,7 +151,7 @@ div.left {
 
 
 .panel {
-	background: rgba(36, 99, 125, 0.6) !important;
+	background: rgba(37, 120, 143, 0.6) !important;
 	box-shadow: none !important;
 	border: none !important;
 	color: #008392 !important;
@@ -184,20 +184,20 @@ div.left {
 
 
 .s-chat-message:nth-child(even) {
-	background: #ffffff !important;
+	background: #73b5c7 !important;
 	border: none !important;
 }
 
 
 .s-chat-message:nth-child(odd) {
-	background: #ffffff !important;
+	background: #73b5c7 !important;
 	border: none !important;
 }
 
 
 /* PINNED MESSAGE */
 .s-chat-message__pinned {
-	background: #000000 !important;
+	background: #53b58e !important;
 	color: #008392 !important;
 	border: none !important;
 }
