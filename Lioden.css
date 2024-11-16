@@ -8,10 +8,10 @@
 
 
 
-/* FONT (From Google Fonts) *
+/* FONT (From Google Fonts) */
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 
 /* BACKGROUND */
@@ -227,7 +227,7 @@ button#label_currentChannel {
 
 
 h1 {
-	@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+	
 	color: #008392;
 	font-size: 72px;
 	text-align: center;
