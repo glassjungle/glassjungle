@@ -51,7 +51,7 @@ body {
 	background: rgba(18, 88, 107, 0.6);
 	border: none;
 	border-top: none;
-	color: #008392;
+	color: cyan;
 	border-radius: 5px;
 	font-family: MS PGothic;
 }
@@ -282,7 +282,7 @@ h3 {
 .bottom,
 th {
 	background: rgba(29, 109, 131, 0.9) !important;
-	color: #008392 !important;
+	color: cyan !important;
 	border-radius: 5px;
 }
 
@@ -294,6 +294,7 @@ th {
 
 .table .left {
 	background: rgba(29, 109, 131, 0.9)
+	color: cyan !important;
 }
 
 
@@ -346,7 +347,7 @@ textarea {
 
 .item-header {
 	background: rgba(0, 0, 0, 0.6) !important;
-	color: #008392  !important;
+	color: cyan  !important;
 }
 
 
@@ -495,12 +496,12 @@ a:hover {
 
 
 div#lion_image {
-	opacity: 0.6;
+	opacity: 1;
 }
 
 
 table#player img {
-	opacity: 0.6;
+	opacity: 1;
 }
 
 
