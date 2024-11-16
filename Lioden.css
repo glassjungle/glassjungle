@@ -1,14 +1,6 @@
-/*
-  Free to use CSS template by Katie (#106445).
-  This code may be altered, edited, or re-uploaded.
-  This template may be used to create paid codes (pre-mades and commissions).
-  Please do NOT remove this credit, unless your coding becomes unrecognizable from this one!
-*/
 
 
-
-
-/* FONT (From Google Fonts) */
+/* FONT  */
 
 
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=VT323&display=swap');
@@ -27,12 +19,12 @@ body {
   font-weight: 700;
   font-style: normal;
 }
-
-bigger { color: cyan; 
+/* LION NAME COLOR , USERNAME COLOR */
+a.bigger { color: cyan; 
 	Border:0;
        }
 
-.member-online { color: cyan; }
+.center h3 { color: cyan; }
 /* FEED ALL, PLAY ALL */
 
 
@@ -46,7 +38,7 @@ bigger { color: cyan;
 
 
 
-/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+/* WELCOME BACK THING, NAVBAR  */
 
 
 .topbar {
