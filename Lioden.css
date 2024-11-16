@@ -1,8 +1,8 @@
 /*
   Free to use CSS template by Katie (#106445).
-  This code may be altered, edited, or re-uploaded. 
+  This code may be altered, edited, or re-uploaded.
   This template may be used to create paid codes (pre-mades and commissions).
-  Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+  Please do NOT remove this credit, unless your coding becomes unrecognizable from this one!
 */
 
 
@@ -20,7 +20,7 @@ body {
 	background: url('https://file.garden/ZlKCRJrkUEDiwwUh/2024_06_27_0xc_Kleki.png') center center fixed;
 	background-size: 100%;
 	font-family: MS PGothic;
-	
+    
 }
 .dotgothic16-regular {
   font-family: "DotGothic16", sans-serif;
@@ -86,7 +86,7 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(3, 59, 82, 0.6);
+	background: rgba(19, 79, 95, 0.8);
 	border: none;
 	box-shadow: none;
 	border-radius: 5px;
@@ -105,7 +105,7 @@ body {
 
 
 .breadcrumb {
-	background: rgba(18, 98, 107, 0.6);
+	background: rgba(29, 109, 131, 0.9);
 }
 
 
@@ -120,7 +120,7 @@ body {
 
 
 .alert {
-	background: rgba(18, 98, 107, 0.6);
+	background: rgba(0, 131, 146, 0.9);
 	border: none;
 	color: #008392;
 }
@@ -128,7 +128,7 @@ body {
 
 .alert-warning,
 .alert-danger {
-	background: rgba(18, 98, 107, 0.6);
+	background: rgba(0, 131, 146, 0.9);
 	color: #008392;
 }
 
@@ -140,7 +140,7 @@ body {
 
 .feature,
 div.left {
-	background: rgba(37, 120, 143, 0.6);
+	background: rgba(0, 131, 146, 0.9);
 	border: none;
 }
 
@@ -151,7 +151,7 @@ div.left {
 
 
 .panel {
-	background: rgba(37, 120, 143, 0.6) !important;
+	background: rgba(0, 131, 146, 0.9) !important;
 	box-shadow: none !important;
 	border: none !important;
 	color: #008392 !important;
@@ -160,21 +160,21 @@ div.left {
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(36, 99, 125, 0.6);
-	color: #000000 !important;
+	background: rgba(37, 141, 94, 0.9);
+	color: #258d5e !important;
 }
 
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #12586b !important;
+	color: #62dbaa !important;
 }
 
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(18, 107, 85, 0.6);
-	color: #126b55 !important;
+	background: rgba(37, 141, 94, 0.9);
+	color: #258d5e !important;
 }
 
 
@@ -190,14 +190,14 @@ div.left {
 
 
 .s-chat-message:nth-child(odd) {
-	background: #73b5c7 !important;
+	background: #629aa9 !important;
 	border: none !important;
 }
 
 
 /* PINNED MESSAGE */
 .s-chat-message__pinned {
-	background: #2aa373 !important;
+	background: #258d5e !important;
 	color: #008392 !important;
 	border: none !important;
 }
@@ -226,13 +226,13 @@ button#label_currentChannel {
 
 
 h1 {
-	
+    
 	color: #008392;
 	font-size: 72px;
 	text-align: center;
 	font-family: DotGothic16;
 	font-weight:700px;
-	
+    
 }
 
 
@@ -281,7 +281,7 @@ h3 {
 .top,
 .bottom,
 th {
-	background: rgba(18, 88, 107, 0.6) !important;
+	background: rgba(29, 109, 131, 0.9) !important;
 	color: #008392 !important;
 	border-radius: 5px;
 }
@@ -293,7 +293,7 @@ th {
 
 
 .table .left {
-	background: rgba(18, 88, 107, 0.6)
+	background: rgba(29, 109, 131, 0.9)
 }
 
 
@@ -303,12 +303,12 @@ th {
 input,
 select,
 textarea {
-	background: rgba(18, 88, 107, 0.6) !important;
+	background: rgba(0, 131, 146, 0.9) !important;
 	border: none !important;
 	border-color: black;
 	border-radius: 5px;
 	box-shadow: none !important;
-	color: black !important;
+	color: cyan !important;
 	text-shadow: none !important;
 }
 
@@ -319,7 +319,7 @@ textarea {
 
 
 .inner-table .left {
-	background: rgba(0, 0, 0, 0.6) !important;
+	background: rgba(0, 131, 146, 0.9) !important;
 }
 
 
@@ -329,7 +329,7 @@ textarea {
 
 
 .inner-table .right {
-	background: rgba(0, 0, 0, 0.6)
+	background: rgba(0, 131, 146, 0.9)
 }
 
 
@@ -591,3 +591,4 @@ a[href$="lionoverview.php?id=282112"]>div.cave-grid>img {
 	padding-top: 80px;
 	padding-right: 130px;
 }
+
