@@ -32,7 +32,7 @@ body {
 
 .feature {
 	background: rgba(0, 0, 0, 0.6) !important;
-	color: #000000 !important;
+	color: #008392 !important;
 	border: none !important;
 	border-radius: 5px !important;
 }
@@ -63,7 +63,7 @@ body {
 
 
 .navbar li a {
-	color: #000000 !important;
+	color: #008392 !important;
 }
 
 
@@ -106,7 +106,7 @@ body {
 
 
 .breadcrumb .active {
-	color: #000000;
+	color: #008392;
 }
 
 
@@ -170,7 +170,7 @@ div.left {
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: rgba(0, 0, 0, 0.6);
-	color: #000000 !important;
+	color: #008392 !important;
 }
 
 
@@ -194,13 +194,13 @@ div.left {
 /* PINNED MESSAGE */
 .s-chat-message__pinned {
 	background: #000000 !important;
-	color: #000000 !important;
+	color: #008392 !important;
 	border: none !important;
 }
 
 
 .s-chat-message_timestamp {
-	color: #000000 !important;
+	color: #008392 !important;
 }
 
 
@@ -212,7 +212,7 @@ div#chatMessageContainer {
 /* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
 button#label_currentChannel {
 	border: none !important;
-	background: #000000 !important;
+	background: #008392 !important;
 }
 
 
@@ -222,7 +222,7 @@ button#label_currentChannel {
 
 
 h1 {
-	color: #000000;
+	color: #008392;
 	font-size: 72px;
 	text-align: center;
 }
@@ -274,7 +274,7 @@ h3 {
 .bottom,
 th {
 	background: rgba(0, 0, 0, 0.6) !important;
-	color: #000000 !important;
+	color: #008392 !important;
 	border-radius: 5px;
 }
 
@@ -382,12 +382,12 @@ textarea {
 
 a:link,
 a:visited {
-	color: #000000 !important;
+	color: #008392 !important;
 }
 
 
 a:hover {
-	color: #000000 !important;
+	color: #008392 !important;
 }
 
 
