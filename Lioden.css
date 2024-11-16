@@ -48,7 +48,7 @@ body {
 
 
 .topbar {
-	background: rgba(89, 161, 171, 0.6);
+	background: rgba(18, 88, 107, 0.6);
 	border: none;
 	border-top: none;
 	color: #008392;
@@ -167,7 +167,7 @@ div.left {
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #008392 !important;
+	color: #12586b !important;
 }
 
 
@@ -231,6 +231,7 @@ h1 {
 	font-size: 72px;
 	text-align: center;
 	font-family: DotGothic16;
+	font-weight:700px;
 	
 }
 
@@ -267,7 +268,7 @@ h3 {
 
 /* PANEL BACKGROUND COLOR */
 .table {
-	background: rgba(18, 98, 107, 0.6);
+	background: rgba(18, 88, 107, 0.6);
 	border: none !important;
 	border-collapse: separate;
 	border-radius: 5px;
@@ -280,7 +281,7 @@ h3 {
 .top,
 .bottom,
 th {
-	background: rgba(18, 98, 107, 0.6) !important;
+	background: rgba(18, 88, 107, 0.6) !important;
 	color: #008392 !important;
 	border-radius: 5px;
 }
@@ -302,7 +303,7 @@ th {
 input,
 select,
 textarea {
-	background: rgba(0, 0, 0, 0.6) !important;
+	background: rgba(18, 88, 107, 0.6) !important;
 	border: none !important;
 	border-color: black;
 	border-radius: 5px;
