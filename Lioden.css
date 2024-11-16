@@ -123,14 +123,14 @@ body {
 .alert {
 	background: rgba(0, 0, 0, 0.6);
 	border: none;
-	color: #000000;
+	color: #008392;
 }
 
 
 .alert-warning,
 .alert-danger {
 	background: rgba(0, 0, 0, 0.6);
-	color: #000000;
+	color: #008392;
 }
 
 
@@ -155,7 +155,7 @@ div.left {
 	background: rgba(0, 0, 0, 0.6) !important;
 	box-shadow: none !important;
 	border: none !important;
-	color: #000000 !important;
+	color: #008392 !important;
 }
 
 
@@ -168,7 +168,7 @@ div.left {
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important;
+	color: #008392 !important;
 }
 
 
@@ -227,10 +227,11 @@ button#label_currentChannel {
 
 
 h1 {
+	@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 	color: #008392;
 	font-size: 72px;
 	text-align: center;
-	@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+	
 }
 
 
