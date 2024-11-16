@@ -35,7 +35,7 @@ body {
 
 
 .feature {
-	background: rgba(89, 161, 171, 0.6) !important;
+	background: rgba(, 0.6) !important;
 	color: #008392 !important;
 	border: none !important;
 	border-radius: 5px !important;
@@ -86,7 +86,7 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(7, 67, 92, 0.6);
+	background: rgba(3, 59, 82, 0.6);
 	border: none;
 	box-shadow: none;
 	border-radius: 5px;
