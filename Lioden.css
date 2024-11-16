@@ -20,7 +20,7 @@
 body {
 	background: url('https://file.garden/ZlKCRJrkUEDiwwUh/2024_06_27_0xc_Kleki.png') center center fixed;
 	background-size: 100%;
-	font-family: FONT CSS HERE;
+	font-family: MS PGothic;
 	
 }
 
@@ -49,14 +49,14 @@ body {
 	border-top: none;
 	color: #000000;
 	border-radius: 5px;
-	font-family: FONT CSS HERE;
+	font-family: MS PGothic;
 }
 
 
 .navbar {
 	background: rgba(0, 0, 0, 0.6);
 	border-bottom: none;
-	font-family: FONT CSS HERE;
+	font-family: MS PGothic;
 	color: #000000;
 	border-radius: 5px;
 }
