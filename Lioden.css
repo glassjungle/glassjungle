@@ -1,0 +1,546 @@
+* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://64.media.tumblr.com/2e3f07ea6b7f608d4fe0485f69b4d767/88fbd78af7b6d452-b0/s2048x3072/8add2d383b8573fdbf5dc0cd1513196856e36368.jpg') center center fixed;
+	background-size: 100%;
+    text-transform: lowercase !important;
+	font-family: "Titillium Web", sans-serif;
+	color: #011126
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(153, 178, 193, 0.9);
+	border: none;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background-image: linear-gradient(to bottom left, #023059, #011C26, #012840) !important;
+	border: none;
+	border-top: none;
+	color: #75d5b2;
+	border-radius: 0px;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background-image: linear-gradient(to top left, #023059, #011C26, #012840) !important;
+	border-bottom: none;
+	color: #011126;
+	border-radius: 0px
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #75d5b2 !important
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: rgba(4, 217, 139, 0.6) !important;
+	border-bottom: none;
+	color: #011C26 !important;
+	border-radius: 0px
+    filter: brightness(100%) opacity(50%);
+    transition: 1.0s !important;
+    height: 50px;
+    width: auto !important
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(85, 114, 136, 0.8) !important;
+        border: none;
+	border-radius: 0px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #011126
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "Template by Katie [#106445] | Edited by Sprout [#185560]";
+        color: #011126;
+        position: absolute;
+        right: 16%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+/* BOOKMARK BUTTON */
+
+input.floatright, input.floatright:hover {
+	background: rgba(85, 114, 136, 0.1) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #011126 !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: rgba(85, 114, 136, 0.8);
+        border: none !important;
+	border-radius: 70px;
+        text-shadow: none !important;
+	color: #011126 !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(55, 166, 134, 0.9) !important;
+	border: none;
+	color: #011126;
+	border-radius: 0px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #011126;
+	font-size: 70px;
+	text-align: center;
+        font-family: "Titillium Web", sans-serif;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #011126;
+	font-size: 24px;
+	text-align: center
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #011126 !important;
+	font-size: 14px !important
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #011126 !important;
+        font-size: 26px !important;
+        font-family: "Titillium Web", sans-serif;
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(30, 59, 77, 0.9) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #011126 !important;
+	border-radius: 0px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(182, 219, 242, 0.9);
+	color: #011126 !important;
+	border-radius: 10px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background-image: linear-gradient(to right, #0B1E26, #5BA683) !important;
+	color: #011126 !important;
+	border-radius: 10px !important
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000D0C !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgba(201, 201, 201, 0.9);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 0px
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgba(31, 46, 72, 0.9) !important;
+	color: #011126 !important;
+	border-radius: 0px
+}
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(36, 111, 90, 0.9) !important;
+        color: #011126;
+	border-radius: 0px
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgba(223, 239, 236, 0.8);
+	border-radius: 0px !important
+}
+
+td.right {
+	border-radius: 0px !important
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(30, 59, 77, 0.9);
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(36, 111, 90, 0.9) !important;
+	color: #011126 !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(36, 111, 90, 0.9);
+	border: none;
+	border-radius: 0px !important
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: rgba(30, 59, 77, 0.8);
+        border-radius: 0px
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgba(201, 201, 201, 0.9) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: #011126 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(30, 59, 77, 0.9) !important;
+	color: #011126  !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: rgba(444, 444, 444, 0.9) !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #B6DBF2 !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #012340 !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #0d624e !important;
+        text-shadow: none !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #000D0C !important
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #0d624e !important
+}
+
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+/* BOXES */
+
+.smallbox {
+	float: left;
+	background: rgba(201, 201, 201, 0.9);
+	color: #011C26;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+.mediumbox {
+	float: left;
+	background: rgba(201, 201, 201, 0.9);
+	color: #011C26;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+
+.largebox {
+	float: left;
+	background: rgba(201, 201, 201, 0.9);
+	color: #011C26;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
+}
+
+.decorbox {
+	float: left;
+	background: none;
+	color: none;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+    margin-bottom: -35px;
+	height: 430px;
+	width: 90%;
+	overflow: auto
+}
+
+/* HOVER BOXES */
+
+.smallhoverbox {
+	float: left;
+	background: rgba(201, 201, 201, 0.9);
+	color: #011C26;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 28.4%;
+	overflow: auto;
+        transition: 3s
+}
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 28.4%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(201, 201, 201, 0.9);
+	color: #011C26;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 3s
+}
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+.largehoverbox {
+	float: left;
+	background: rgba(201, 201, 201, 0.9);
+	color: #011C26;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 0px
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 1
+}
+
+table#player img {
+	opacity: 1
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 0% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+table#player img {
+	border-radius: 0% !important;
+	overflow: hidden
+    margin-top: 15px; /* May need adjusting */
+	margin-left: -20px /* May need adjusting */
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://static.wikia.nocookie.net/warriors/images/b/b2/Logo-shadowclan-textless.png/revision/latest?cb=20210624221224')
+}
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
