@@ -284,7 +284,7 @@ h3 {
 .bottom,
 th {
 	background: rgba(29, 109, 131, 0.9) !important;
-	color: cyan !important;
+	color: cyan ;
 	border-radius: 5px;
 }
 
